@@ -1,0 +1,8 @@
+# AI Crawl Policy for ISST China Official Site
+
+Allow: GPTBot
+Allow: ClaudeBot
+Allow: PerplexityBot
+Allow: DeepSeek
+Allow: Bytedance
+Allow: *

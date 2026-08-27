@@ -1,0 +1,18 @@
+{
+  "name": "ISST 中国官网",
+  "organization": "健衡学园",
+  "organizationEn": "Active and Balanced Physiotherapy Academy",
+  "description": "德国 ISST 国际施罗斯三维脊柱侧弯疗法在中国的官方信息平台，提供认证课程、排期与报名信息。",
+  "pages": [
+    {"url": "/index.html", "title": "首页"},
+    {"url": "/courses.html", "title": "课程体系"},
+    {"url": "/cases.html", "title": "案例中心"},
+    {"url": "/therapists.html", "title": "治疗师名录"},
+    {"url": "/apply.html", "title": "报名咨询"}
+  ],
+  "contact": {
+    "email": "jianhengacademy@yeah.net",
+    "phone": "0371-58532216",
+    "address": "河南省郑州市"
+  }
+}
