@@ -119,4 +119,27 @@
       }
     });
   }
+
+  // 顶栏「治疗师名录」：hover 展开地区下拉（跳转 therapists.html?region=…）
+  const THERAPIST_REGIONS = ['华东地区', '华南地区', '华中地区', '华北地区', '西北地区', '西南地区', '东北地区', '港澳台地区'];
+  document.querySelectorAll('.nav-links a[data-page="therapists"]').forEach(a => {
+    if (a.closest('.nav-has')) return;                 // 已构建过
+    const li = a.parentElement;
+    if (!li || li.tagName !== 'LI') return;
+    const mk = (txt, href, all) => {
+      const x = document.createElement('a');
+      x.href = href;
+      x.textContent = txt;
+      if (all) x.className = 'nav-all';
+      return x;
+    };
+    const drop = document.createElement('div');
+    drop.className = 'nav-drop';
+    const base = a.getAttribute('href') || 'therapists.html';
+    drop.appendChild(mk('全部地区（名录总览）', base, true));
+    THERAPIST_REGIONS.forEach(r => drop.appendChild(mk(r, 'therapists.html?region=' + encodeURIComponent(r), false)));
+    li.classList.add('nav-has');
+    a.setAttribute('aria-haspopup', 'true');
+    li.appendChild(drop);
+  });
 })();
