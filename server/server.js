@@ -41,8 +41,8 @@ const FIELD_MAP = {
   city: '所在城市',
   job: '职业背景',
   course: '意向课程',
-  session: '意向城市/场次',
-  message: '想咨询的问题',
+  session: '意向场次',
+  message: '咨询问题',
 };
 const FIELD_TIME = '提交时间';
 
