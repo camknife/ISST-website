@@ -7,3 +7,8 @@ server/.env
 # 中间产物：重命名后的照片副本与映射表
 scraped_therapists/renamed/
 scraped_therapists/photo_to_id.json
+
+# 本地工具记忆 / 审查与操作手册（不纳入版本库）
+.workbuddy/
+合规审查报告.md
+企业微信智能表格-建表与授权操作手册.md
