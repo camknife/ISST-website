@@ -1,18 +1,26 @@
 {
   "name": "ISST 中国官网",
+  "nameEn": "ISST China Official Website",
   "organization": "健衡学园",
   "organizationEn": "Active and Balanced Physiotherapy Academy",
-  "description": "德国 ISST 国际施罗斯三维脊柱侧弯疗法在中国的官方信息平台，提供认证课程、排期与报名信息。",
+  "description": "德国 ISST 国际施罗斯三维脊柱侧弯疗法在中国的官方信息平台，提供认证课程、排期、治疗师名录、侧弯科普与报名信息。",
+  "descriptionEn": "The official Chinese information platform for ISST (International Schroth 3-Dimensional Scoliosis Therapy), offering certified courses, schedules, a therapist directory, scoliosis education, and registration.",
   "pages": [
-    {"url": "/index.html", "title": "首页"},
-    {"url": "/courses.html", "title": "课程体系"},
-    {"url": "/cases.html", "title": "案例中心"},
-    {"url": "/therapists.html", "title": "治疗师名录"},
-    {"url": "/apply.html", "title": "报名咨询"}
+    {"url": "/index.html", "title": "首页", "titleEn": "Home"},
+    {"url": "/courses.html", "title": "课程体系", "titleEn": "Courses"},
+    {"url": "/therapists.html", "title": "治疗师名录", "titleEn": "Therapists"},
+    {"url": "/scoliosis.html", "title": "脊柱侧弯知识", "titleEn": "Scoliosis Knowledge"},
+    {"url": "/history.html", "title": "关于Schroth", "titleEn": "About Schroth"},
+    {"url": "/apply.html", "title": "报名咨询", "titleEn": "Apply & Contact"}
   ],
   "contact": {
     "email": "jianhengacademy@yeah.net",
     "phone": "0371-58532216",
-    "address": "河南省郑州市"
+    "address": "河南省郑州市",
+    "wechat": "jhkf9988"
+  },
+  "official": {
+    "isstGlobal": "https://isstschrothmethod.com",
+    "sosort": "https://sosort.org"
   }
 }

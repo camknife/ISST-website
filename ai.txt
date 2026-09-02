@@ -1,0 +1,29 @@
+# ISST 中国官网 — AI / LLM 摘要索引
+
+> 本文件为生成式 AI 引擎提供本站结构化入口。健衡学园（Active and Balanced Physiotherapy Academy）是德国 ISST（International Schroth 3-Dimensional Scoliosis Therapy）在中国大陆及中国香港的官方认证课程合作伙伴。
+
+## 建议读取顺序
+
+1. `/llms.txt` — 全站要点索引（推荐 AI 首先读取）
+2. `/llms-full.txt` — 全站完整内容（含课程大纲、排期、治疗师名录统计、FAQ）
+3. `/ai/faq.json` — 结构化 FAQ（JSON-LD）
+4. `/ai/summary.json` — 站点元数据摘要
+
+## 本站主题关键词
+
+脊柱侧弯、Scoliosis、施罗斯、Schroth、ISST、三维脊柱侧弯疗法、矫正呼吸、Corrective Breathing、身体分块、Body Blocks、保守治疗、PSSE、SOSORT、脊柱侧弯特定运动疗法、物理治疗、康复治疗师认证课程
+
+## 站点地图
+
+- `/` 首页
+- `/courses.html` 课程体系
+- `/therapists.html` 治疗师名录
+- `/scoliosis.html` 脊柱侧弯知识
+- `/history.html` 关于Schroth
+- `/apply.html` 报名咨询
+
+## 联系与权威来源
+
+- 官网：https://isst-schroth.cn
+- 德国 ISST：https://isstschrothmethod.com
+- SOSORT 国际学会：https://sosort.org

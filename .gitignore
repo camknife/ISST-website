@@ -1,0 +1,9 @@
+# 阿里云 OSS 配置（含 AccessKey，切勿提交）
+scraped_therapists/.env
+
+# 企业微信凭证（切勿提交）
+server/.env
+
+# 中间产物：重命名后的照片副本与映射表
+scraped_therapists/renamed/
+scraped_therapists/photo_to_id.json
