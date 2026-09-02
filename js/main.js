@@ -57,8 +57,8 @@
   // 报名表单：优先提交到后端（写入企业微信智能表格），失败回退 mailto
   const form = document.getElementById('applyForm');
   if (form) {
-    // 后端接口地址：生产环境改为服务器实际地址（如 https://your-server/api/apply 或同域 /api/apply）
-    const API_URL = 'http://60.205.181.202:3000/api/apply';
+    // 后端接口地址：生产环境改为服务器实际地址（ISST 后端用 3002 端口）
+    const API_URL = 'http://60.205.181.202:3002/api/apply';
     form.addEventListener('submit', e => {
       e.preventDefault();
       const name = form.name.value.trim();

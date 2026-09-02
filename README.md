@@ -2,7 +2,7 @@
 
 国际施罗斯三维脊柱侧弯疗法（ISST）中国官方信息平台，由健衡学园（Active and Balanced Physiotherapy Academy）与德国 ISST 官方合作运营。
 
-- 官网：https://isst-schroth.cn
+- 官网：https://isstschroth.com
 - 仓库：https://github.com/camknife/ISST-website
 
 ## 页面结构

@@ -24,7 +24,8 @@ function loadEnv() {
 }
 
 const env = loadEnv();
-const PORT = Number(env.PORT || process.env.PORT || 3000);
+// 端口：避开同机 pakfront 已占用的 3000，ISST 用 3002
+const PORT = Number(env.PORT || process.env.PORT || 3002);
 
 const CFG = {
   CORP_ID: env.WECOM_CORP_ID || process.env.WECOM_CORP_ID || '',

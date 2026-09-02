@@ -74,4 +74,4 @@ Allow: /ai/
 Allow: /ai/faq.json
 Allow: /ai/summary.json
 
-Sitemap: https://isst-schroth.cn/sitemap.xml
+Sitemap: https://isstschroth.com/sitemap.xml
