@@ -575,3 +575,16 @@
   .tl-dot{width:29px;height:29px}
   .tl-body h3{font-size:16px}
 }
+
+/* ================= 学院课堂 · 瀑布流 ================= */
+.masonry{columns:3;column-gap:16px}
+.masonry-item{break-inside:avoid;margin:0 0 16px;display:block}
+.masonry-link{display:block;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);border:1px solid var(--line);background:var(--white);transition:transform .25s ease,box-shadow .25s ease}
+.masonry-link:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.masonry-link img{width:100%;height:auto;display:block}
+@media (max-width:900px){
+  .masonry{columns:2}
+}
+@media (max-width:560px){
+  .masonry{columns:1}
+}
