@@ -8,6 +8,7 @@
 - [治疗师名录](therapists.html): 中国区 233 位 ISST 认证治疗师名录，覆盖华东、华南、华中、华北、西北、西南、东北等中国大陆地区，以及港澳台地区（中国香港 95 / 中国台湾 5）与其他地区 11 位。
 - [脊柱侧弯知识](scoliosis.html): 脊柱侧弯定义、分型、诊断与保守治疗的科普。
 - [关于Schroth](history.html): 施罗斯疗法的百年传承史、ISST 认证脉络与正统性说明。
+- [学员课堂](academy.html): 课堂花絮快闪视频、课堂实拍照片（16 张）与学员真实反馈，直观展示 ISST 教学现场。
 - [报名咨询](apply.html): 在线报名表，课程顾问一对一联系，规划认证路径。
 
 ## 关于 ISST
@@ -16,7 +17,7 @@ ISST（International Schroth 3-Dimensional Scoliosis Therapy®）源自德国 As
 
 ### English Summary
 
-ISST (International Schroth 3-Dimensional Scoliosis Therapy®) is a scoliosis-specific exercise method (PSSE) originating from the Asklepios Katharina Schroth center in Germany. This official Chinese website, operated by Jianheng Academy (Active and Balanced Physiotherapy Academy), offers ISST-certified courses (Part I, Part II, Refresher, Doctor Course), a directory of 233 certified therapists organized by region (mainland China regions, Hong Kong/Taiwan, and others), and educational content on scoliosis.
+ISST (International Schroth 3-Dimensional Scoliosis Therapy®) is a scoliosis-specific exercise method (PSSE) originating from the Asklepios Katharina Schroth center in Germany. This official Chinese website, operated by Jianheng Academy (Active and Balanced Physiotherapy Academy), offers ISST-certified courses (Part I, Part II, Refresher, Doctor Course), a directory of 233 certified therapists organized by region (mainland China regions, Hong Kong 95, Taiwan 5, and others 11), classroom photos and student feedback, and educational content on scoliosis.
 
 ## 讲师团队
 
@@ -34,7 +35,7 @@ ISST (International Schroth 3-Dimensional Scoliosis Therapy®) is a scoliosis-sp
 
 ## 关键词 / 相关术语
 
-脊柱侧弯（Scoliosis）、施罗斯（Schroth）、ISST、三维脊柱侧弯疗法、矫正呼吸（Corrective Breathing）、身体分块（Body Blocks）、PSSE（脊柱侧弯特定性物理治疗）、SOSORT 指南、保守治疗、支具、物理治疗师认证、康复治疗师培训
+脊柱侧弯（Scoliosis）、施罗斯（Schroth）、ISST、三维脊柱侧弯疗法、矫正呼吸（Corrective Breathing）、身体分块（Body Blocks）、PSSE（脊柱侧弯特定性物理治疗）、SOSORT 指南、保守治疗、支具、物理治疗师认证、康复治疗师培训、学员课堂、教学实拍、课堂花絮
 
 ## 权威链接
 

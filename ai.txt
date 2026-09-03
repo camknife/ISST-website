@@ -11,15 +11,17 @@
 
 ## 本站主题关键词
 
-脊柱侧弯、Scoliosis、施罗斯、Schroth、ISST、三维脊柱侧弯疗法、矫正呼吸、Corrective Breathing、身体分块、Body Blocks、保守治疗、PSSE、SOSORT、脊柱侧弯特定运动疗法、物理治疗、康复治疗师认证课程
+脊柱侧弯、Scoliosis、施罗斯、Schroth、ISST、三维脊柱侧弯疗法、矫正呼吸、Corrective Breathing、身体分块、Body Blocks、保守治疗、PSSE、SOSORT、脊柱侧弯特定运动疗法、物理治疗、康复治疗师认证课程、学员课堂、教学实拍、学员反馈
 
 ## 站点地图
 
 - `/` 首页
 - `/courses.html` 课程体系
+- `/academy.html` 学员课堂
 - `/therapists.html` 治疗师名录
 - `/scoliosis.html` 脊柱侧弯知识
 - `/history.html` 关于Schroth
+- `/literature.html` 文献资源
 - `/apply.html` 报名咨询
 
 ## 联系与权威来源
