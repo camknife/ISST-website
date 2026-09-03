@@ -160,9 +160,6 @@
         <p style="color:var(--muted);margin-top:8px">来自学员与朋友圈的真实评价（点击图片可放大查看）</p>
       </div>
       <div class="masonry" id="feedbackGrid"></div>
-      <div style="text-align:center;margin-top:28px">
-        <button id="showMoreFeedback" class="btn btn-ghost" style="display:none">查看更多反馈</button>
-      </div>
       <p style="font-size:13px;color:var(--muted);text-align:center;margin-top:16px">以上为学员自愿分享的学习反馈，内容仅供参考，个体体验因人而异。</p>
     </div>
 
@@ -253,15 +250,11 @@
     "https://isst-website.oss-cn-beijing.aliyuncs.com/academy/feedback/bd19ec47d6930bdae44b6b94e23a1d99_compress.jpg",
     "https://isst-website.oss-cn-beijing.aliyuncs.com/academy/feedback/c11ef18af110888b246934e4f22c4ef9_compress.jpg",
     "https://isst-website.oss-cn-beijing.aliyuncs.com/academy/feedback/d289a49280989e968604ddca42705878_compress.jpg",
-    "https://isst-website.oss-cn-beijing.aliyuncs.com/academy/feedback/d3310673e8c0a80897973530a85ee72c_compress.jpg",
-    "https://isst-website.oss-cn-beijing.aliyuncs.com/academy/feedback/d42b9722-6829-41af-bd74-a8d41f6314f1.jpg"
+    "https://isst-website.oss-cn-beijing.aliyuncs.com/academy/feedback/d3310673e8c0a80897973530a85ee72c_compress.jpg"
   ];
 
   var grid = document.getElementById('feedbackGrid');
-  var btn = document.getElementById('showMoreFeedback');
   if (!grid) return;
-
-  var PREVIEW_COUNT = 20;
 
   // 洗牌（随机精选）
   function shuffle(arr) {
@@ -285,14 +278,8 @@
   }
 
   var shuffled = shuffle(feedbackImages.slice());
-  render(shuffled.slice(0, PREVIEW_COUNT));
-  if (shuffled.length > PREVIEW_COUNT) {
-    btn.style.display = 'inline-flex';
-    btn.addEventListener('click', function () {
-      render(shuffled.slice(PREVIEW_COUNT));
-      btn.style.display = 'none';
-    });
-  }
+  // 展示前 20 张（共 20 张，无"查看更多"按钮）
+  render(shuffled.slice(0, 20));
 })();
 </script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
