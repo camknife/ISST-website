@@ -13,8 +13,9 @@
 | `history.html` | 关于Schroth（百年传承史、时间线） |
 | `scoliosis.html` | 脊柱侧弯知识科普 |
 | `courses.html` | ISST 认证课程体系（Part I / Part II / Refresher / Doctor Course） |
+| `academy.html` | 学员课堂（课堂花絮视频、课堂实拍、学员反馈） |
 | `literature.html` | 文献资源（SOSORT 2016 指南要点 + 下载、核心循证文献） |
-| `therapists.html` | 治疗师名录（235 位，OSS 头像） |
+| `therapists.html` | 治疗师名录（233 位，OSS 头像） |
 | `apply.html` | 报名咨询表单 |
 
 ## 技术栈
@@ -41,14 +42,14 @@ POST /api/apply  { name, phone, city, job, course, session, message }
 复制 `server/.env.example` 为 `server/.env` 并填写：
 
 ```ini
-PORT=3000
+PORT=3002
 WECOM_CORP_ID=你的企业ID
 WECOM_SECRET=你的应用Secret
-WECOM_DOCID=智能表格docid（须为 API create_doc 创建的表）
+WECOM_DOCID=智能表格docid（ISST 课程咨询表 s3_ALgAhxQ7AKwCNrA5pBe8CQDWGSq1J_a）
 WECOM_SHEET_ID=q979lj
 ```
 
-> ⚠️ 企业微信 API 仅允许白名单 IP 调用；`.env` 已加入 `.gitignore`，切勿提交。
+> ⚠️ 端口使用 3002（避开同机 pakfront 的 3000）；企业微信 API 仅允许白名单 IP 调用；`.env` 已加入 `.gitignore`，切勿提交。
 
 ### 启动
 
