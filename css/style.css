@@ -582,9 +582,23 @@
 .masonry-link{display:block;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);border:1px solid var(--line);background:var(--white);transition:transform .25s ease,box-shadow .25s ease}
 .masonry-link:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
 .masonry-link img{width:100%;height:auto;display:block}
+/* 学员反馈截图：完整等比显示，不裁切；用更窄的列让长截图整体缩小 */
+#feedbackGrid{columns:4;column-gap:14px}
+#feedbackGrid .masonry-link img{width:100%;height:auto;display:block}
+/* 课堂瀑布流响应式 */
 @media (max-width:900px){
   .masonry{columns:2}
 }
 @media (max-width:560px){
   .masonry{columns:1}
+}
+/* 反馈瀑布流响应式 */
+@media (max-width:1100px){
+  #feedbackGrid{columns:3}
+}
+@media (max-width:900px){
+  #feedbackGrid{columns:2}
+}
+@media (max-width:560px){
+  #feedbackGrid{columns:1}
 }
